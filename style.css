@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: #181817;
+}
+.red {
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    margin: 40px 200px;
+}
+.work a {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Monserrat', sans-serif;
+    float: right;
+    position: relative;
+    bottom: 60px;
+    right: 200px;
+}
+.work a:hover {
+    color: #969695;
+    transition: 0.3s;
+}
+.first-header {
+    font-size: 40px;
+    color: #fff;
+    margin: 200px 0 0 200px;
+}
+img {
+    margin: 100px 0 0 100px;
+}
+.second-header {
+    color: #fff;
+    font-size: 55px;
+    margin: 100px 0 0 200px;
+    font-family: "Montserrat", sans-serif;
+}
+.p {
+    color: #fff;
+    font-size: 30px;
+    margin: 60px 0 0 200px;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid #969695;
+    padding-bottom: 50px;
+    width: 1200px;
+}
+.container {
+    margin: 100px 0 0 200px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 360px;
+}
+.first-column {
+    color: #969695;
+}
+.second-column p {
+    padding: 10px;
+}
+.third-column p {
+    padding: 10px;
+}
+.horizontal-border {
+    border-bottom: 1px solid #969695;
+    margin: 100px 0 100px 200px;
+    width: 1200px;
+}
+.third-header {
+    margin-left: 200px;
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+}
+.talk-red {
+    color: red;
+}
+footer {
+    width: 1200px;
+    height: 80px;
+    background-color: red;
+    margin-left: 150px;
+    margin-top: 100px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (max-width: 992px) {
+    .red {
+        margin: 40px 150px;
+    }
+    .work a {
+        font-size: 20px;
+        right: 150px;
+    }
+    .first-header {
+        font-size: 40px;
+        margin: 80px 0 0 150px;
+    }
+    img {
+        margin: 50px 0 0 80px;
+        width: 800px;
+        height: 450px;
+    }
+    .second-header {
+        font-size: 34px;
+        margin: 50px 0 0 150px;
+    }
+    .p {
+        font-size: 20px;
+        margin: 40px 0 0 150px;
+        width: 690px;
+    }
+    .container {
+        margin: 25px 0 0 150px;
+        font-size: 20px;
+    }
+    .horizontal-border {
+        margin: 50px 150px 50px 150px;
+        width: 690px;
+    }
+    .third-header {
+        margin-left: 150px;
+        font-size: 34px;
+    }
+    footer {
+        width: 780px;
+        height: 60px;
+        margin-left: 100px;
+        margin-top: 50px;
+        font-size: 28px;
+    }
+}
+@media (max-width: 768px) {
+    .red {
+        margin: 40px 60px;
+    }
+    .work a {
+        font-size: 17px;
+        right: 50px;
+    }
+    .first-header {
+        font-size: 34px;
+        margin: 50px 0 0 60px;
+    }
+    img {
+        margin: 50px 0 0 50px;
+        width: 620px;
+        height: 380px;
+    }
+    .second-header {
+        font-size: 30px;
+        margin: 50px 0 0 60px;
+    }
+    .p {
+        font-size: 20px;
+        margin: 40px 0 0 60px;
+        width: 590px;
+    }
+    .container {
+        margin: 25px 0 0 50px;
+        font-size: 20px;
+    }
+    .horizontal-border {
+        margin: 50px 60px 50px 60px;
+        width: 590px;
+    }
+    .third-header {
+        margin-left: 60px;
+        font-size: 24px;
+    }
+    footer {
+        width: 650px;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 50px;
+        font-size: 24px;
+    }
+}
+@media (max-width: 576px) {
+    .red {
+        margin: 40px 50px;
+    }
+    .work a {
+        font-size: 17px;
+        right: 50px;
+    }
+    .first-header {
+        font-size: 28px;
+        margin: 50px 0 0 50px;
+    }
+    img {
+        margin: 50px 0 0 50px;
+        width: 450px;
+        height: 300px;
+    }
+    .second-header {
+        font-size: 24px;
+        margin: 50px 0 0 50px;
+    }
+    .p {
+        font-size: 17px;
+        margin: 40px 0 0 50px;
+        width: 450px;
+    }
+    .container {
+        margin: 25px 0 0 50px;
+        font-size: 17px;
+    }
+    .horizontal-border {
+        margin: 50px 0 50px 50px;
+        width: 450px;
+    }
+    .third-header {
+        margin-left: 50px;
+        font-size: 24px;
+    }
+    footer {
+        width: 490px;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 50px;
+        font-size: 22px;
+    }
+}
